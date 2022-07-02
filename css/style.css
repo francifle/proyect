@@ -1,0 +1,140 @@
+/*
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(http://i.stack.imgur.com/pMAiU.jpg);
+}
+#logotipo img{
+	height: 125px;
+	width: 125px;
+	top: -8px;
+	position: absolute;
+}
+#logotipo h1{
+	background-color: #E4E4E4;
+	text-align: center;
+	padding: 41px;
+	position: static;
+	text-shadow: 1px 1px 3px darkred;
+	font-family: 'Grape Nuts', cursive;
+	font-size: 30px;
+}
+#nav{
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 40px;
+	position: fixed;
+}
+#nav ul{
+	list-style: none;
+	text-decoration: none;
+	margin: 0px;
+	height: 0px;
+	color: white;
+	width: 1130px;
+}
+nav > ul > li {
+	line-height: 40px;
+	float: left;
+}
+nav > ul > li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+nav > ul > li a:hover{
+	color: white;
+	background-color: #D9241B;
+	transition: all 0.3s;
+	box-shadow: 0px 0px 10px black inset;
+}
+#section {
+	height: 250px;
+	width: 300px;
+	border: 2px solid black;
+	margin-top: 42px;
+	margin-left: 8px;
+}
+ MENU DESPLEGABLE
+#nav > ul > li > ul {
+	display: none;
+	position: absolute;
+	color: white;
+	text-align: center;
+	width: 85px;
+	box-shadow: 0px 2px 2px darkred;
+	z-index: 1;
+	background-color: black;
+}
+#nav > ul > li:hover > ul{
+	display: block;
+	border: 2px solid black;
+	background-color: grey;
+	transition: all 1s;
+}
+#nav > ul > li:hover > ul li{
+	background-color: black;
+	border: 1px solid black;
+	display: block;
+}
+#sidebar {
+	width: 250px;
+	height: 800px;
+	display: inline-block;
+	color: black;
+}
+#ventas {
+	height: 450px;
+	width: 1755px;
+	border: 3px solid black;
+	padding: 30px;
+}
+#video{
+	display: inline-block;
+	margin-top: 30px;
+}
+.video{
+	max-height: 100%;
+	max-width: 100%;
+	border: 5px solid darkred;
+}
+#ventas h2{
+	float: left;
+}
+#presentacion{
+	float: right;
+	margin-top: 30px;
+	margin-right: 180px;
+	font-size: 25px;
+	display: inline-block;
+	background-color: #E4E4E4;
+	padding: 5px;
+	border-radius: 12px;
+	height: 350px;
+	width: 750px;
+	overflow: auto;
+	text-align: center;
+}
+#presentacion h2{
+	text-align: center;
+}
+#clearbox{
+	float: none;
+	clear: both;
+}*/
+#logotipo{
+	height: 125px;
+	width: 125px;
+	margin-left: 10px;
+}
+.carousel-item {
+  $carousel-control-transition:        opacity .15s ease, opacity .15s ease-out;
+}
+.indigo{
+	background-color: #0d6efd;
+}
